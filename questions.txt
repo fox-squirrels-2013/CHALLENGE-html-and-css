@@ -1,0 +1,8 @@
+Questions:
+1) We have specified the UTC-8 charset but it still comes up with a warning. See below
+
+ Using Direct Input mode: UTF-8 character encoding assumed
+
+Unlike the “by URI” and “by File Upload” modes, the “Direct Input” mode of the validator provides validated content in the form of characters pasted or typed in the validator's form field. This will automatically make the data UTF-8, and therefore the validator does not need to determine the character encoding of your document, and will ignore any charset information specified.
+
+If you notice a discrepancy in detected character encoding between the “Direct Input” mode and other validator modes, this is likely to be the reason. It is neither a bug in the validator, nor in your document.
