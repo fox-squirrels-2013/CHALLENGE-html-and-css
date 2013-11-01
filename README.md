@@ -32,6 +32,10 @@ Add the CSS
 * Style your `<header>` and `<nav>` bar to look similar to [this image](nav.png)
 * Style your main content `<div>` to have [two or three columns](http://www.noupe.com/css/9-timeless-3-column-layout-techniques.html).
 * Style the pagination in your footer to look like [this image](pagination.jpeg) 
+* Try to add these things to your css to explore and better understand: 
+  * Display - block, inline, inline-block
+  * Float
+  * The box model. 
 
 ### Release 3.
 * Add additional html 5 elements to your main content (like article)
