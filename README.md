@@ -23,7 +23,7 @@ Create the HTML using HTML 5.
 * Create the `<body>` with a `<header>`, `<nav>` and content. 
 * Your `<header>` should contain a logo and a company name and the `<nav>`.
 * Your `<nav>` should contain three links to sign_up, sign_in, and sign_out in a list. (these do not have to link to other pages.)
-* Use lorum-ipsum text to put ALOT of text in your main content `<div>`
+* Use [lorem ipsum](http://www.lipsum.com/) text to put ALOT of text in your main content `<div>`
 * Add a `<footer>` with numbers 1-5 for paganation.
 * Make sure your page is validated.
 
@@ -31,14 +31,14 @@ Create the HTML using HTML 5.
 Add the CSS
 * Style your `<header>` and `<nav>` bar to look like [this image](nav.png)
 * Style your main content `<div>` to have two or three columns.
-* Style the pagination in your footer to look like [this image](footer.png) 
+* Style the pagination in your footer to look like [this image](pagination.jpeg) 
 
 ### Release 3.
 * Add additional html 5 elements to your main content (like article)
 * Explore CSS3  and add CSS3 styles (like gradients or rotations).
 
 ### Release 4.
-* Re-do your site using [bootstrap]()
+* Re-do your site using [bootstrap](http://getbootstrap.com/)
 
 ## Helpful Resources
 
