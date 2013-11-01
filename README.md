@@ -29,8 +29,8 @@ Create the HTML using HTML 5.
 
 ### Release 2. 
 Add the CSS
-* Style your `<header>` and `<nav>` bar to look like [this image](nav.png)
-* Style your main content `<div>` to have two or three columns.
+* Style your `<header>` and `<nav>` bar to look similar to [this image](nav.png)
+* Style your main content `<div>` to have [two or three columns](http://www.noupe.com/css/9-timeless-3-column-layout-techniques.html).
 * Style the pagination in your footer to look like [this image](pagination.jpeg) 
 
 ### Release 3.
