@@ -1,7 +1,157 @@
 @charset "UTF-8";
 
+@keyframes pretty {
+  0% {background-color: #DF004F;}
+  10% {background-color: #BF9A30;}
+  20% {background-color: #530FAD;}
+  30% {background-color: #9FEE00;}
+  40% {background-color: #FF9640;}
+  50% {background-color: #A60000;}
+  60% {background-color: #04859D;}
+  70% {background-color: #DFFA00;}
+  80% {background-color: #A64B00;}
+  90% {background-color: #9F3DE5;}
+  100% {background-color: #BC4B36;}
+}
+
+@-webkit-keyframes pretty {
+  0% {background-color: #DF004F;}
+  10% {background-color: #BF9A30;}
+  20% {background-color: #530FAD;}
+  30% {background-color: #9FEE00;}
+  40% {background-color: #FF9640;}
+  50% {background-color: #A60000;}
+  60% {background-color: #04859D;}
+  70% {background-color: #DFFA00;}
+  80% {background-color: #A64B00;}
+  90% {background-color: #9F3DE5;}
+  100% {background-color: #BC4B36;}
+}
+
+@keyframes textmove {
+  0% { 
+    margin-left: 200px; 
+    background-color: red;
+  }
+  5% { margin-left: 400px; }
+  10% { margin-left: 600px; }
+  15% { margin-left: 800px; }
+  20% { margin-left: 1000px; }
+  25% { 
+    margin-left: 1200px; 
+    background-color: yellow;
+  }
+  30% { margin-left: 1400px; }
+  35% { margin-left: 1600px; }
+  40% { margin-left: 1800px; }
+  45% { margin-left: 2000px; }
+  50% { 
+    margin-left: 2200px; 
+    background-color: green;
+  }
+  55% { margin-left: 2400px; }
+  60% { margin-left: 2600px; }
+  65% { margin-left: 2800px; }
+  70% { margin-left: 3000px; }
+  75% { 
+    margin-left: 3200px; 
+    background-color: #df004f;
+  }
+  80% { margin-left: 3400px; }
+  85% { margin-left: 3600px; }
+  90% { margin-left: 3800px; }
+  95% { margin-left: 4000px; }
+  100% { margin-left: 4200px; }
+}
+
+@-webkit-keyframes textmove {
+  0% { 
+    margin-left: 200px; 
+    background-color: red;
+  }
+  5% { margin-left: 400px; }
+  10% { margin-left: 600px; }
+  15% { margin-left: 800px; }
+  20% { margin-left: 1000px; }
+  25% { 
+    margin-left: 1200px; 
+    background-color: yellow;
+  }
+  30% { margin-left: 1400px; }
+  35% { margin-left: 1600px; }
+  40% { margin-left: 1800px; }
+  45% { margin-left: 2000px; }
+  50% { 
+    margin-left: 2200px; 
+    background-color: green;
+  }
+  55% { margin-left: 2400px; }
+  60% { margin-left: 2600px; }
+  65% { margin-left: 2800px; }
+  70% { margin-left: 3000px; }
+  75% { 
+    margin-left: 3200px; 
+    background-color: #df004f;
+  }
+  80% { margin-left: 3400px; }
+  85% { margin-left: 3600px; }
+  90% { margin-left: 3800px; }
+  95% { margin-left: 4000px; }
+  100% { margin-left: 4200px; }
+}
+
+@keyframes textmove-left {
+  0% { margin-right: 200px; }
+  5% { margin-right: 400px; }
+  10% { margin-right: 600px; }
+  15% { margin-right: 800px; }
+  20% { margin-right: 1000px; }
+  25% { margin-right: 1200px; }
+  30% { margin-right: 1400px; }
+  35% { margin-right: 1600px; }
+  40% { margin-right: 1800px; }
+  45% { margin-right: 2000px; }
+  50% { margin-right: 2200px; }
+  55% { margin-right: 2400px; }
+  60% { margin-right: 2600px; }
+  65% { margin-right: 2800px; }
+  70% { margin-right: 3000px; }
+  75% { margin-right: 3200px; }
+  80% { margin-right: 3400px; }
+  85% { margin-right: 3600px; }
+  90% { margin-right: 3800px; }
+  95% { margin-right: 4000px; }
+  100% { margin-right: 4200px; }
+}
+
+@-webkit-keyframes textmove-left {
+  0% { margin-right: 200px; }
+  5% { margin-right: 400px; }
+  10% { margin-right: 600px; }
+  15% { margin-right: 800px; }
+  20% { margin-right: 1000px; }
+  25% { margin-right: 1200px; }
+  30% { margin-right: 1400px; }
+  35% { margin-right: 1600px; }
+  40% { margin-right: 1800px; }
+  45% { margin-right: 2000px; }
+  50% { margin-right: 2200px; }
+  55% { margin-right: 2400px; }
+  60% { margin-right: 2600px; }
+  65% { margin-right: 2800px; }
+  70% { margin-right: 3000px; }
+  75% { margin-right: 3200px; }
+  80% { margin-right: 3400px; }
+  85% { margin-right: 3600px; }
+  90% { margin-right: 3800px; }
+  95% { margin-right: 4000px; }
+  100% { margin-right: 4200px; }
+}
+
 body {
-  background-color: #ccc; 
+  background-color: #ccc;
+  animation: pretty 20s;
+  -webkit-animation: pretty 20s; 
 }
 body:hover {
   background-color: orange;
@@ -12,6 +162,8 @@ body:hover {
   width: 10%;
   background-color: #fff;
   margin: 0 auto;
+  animation: textmove-left 20s;
+  -webkit-animation: textmove-left 20s;
 }
 img {
   width: 100%;
@@ -26,6 +178,8 @@ img {
   position: relative;
   height: 800px;
   clear: both;
+  animation: textmove 20s;
+  -webkit-animation: textmove 20s;
 }
 p {
   font-size: 17px;
