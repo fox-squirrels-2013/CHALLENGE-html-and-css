@@ -1,0 +1,46 @@
+header {
+  background-color: #ffffff;
+  text-align: center;
+  margin: auto;
+
+}
+
+#title-bar {
+  margin: auto;
+}
+
+#title-bar img{
+      display: inline;
+
+/*  float: left;
+*/}
+
+#title-bar h1 {
+      display: inline;
+
+  color: #006600;
+}
+
+nav {
+  height: 4em;
+  text-align: center;
+
+  background-color: #aaaaaa;
+}
+
+nav ul {
+  margin: auto;
+}
+
+nav ul li{
+  display: inline;
+
+  list-style: none;
+  margin-right: 1em;  
+  margin-left: 1em;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
